@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="tictactoe.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+          <h1 class="display-4 jumbo">Welcome to the interactive Tic Tac Toe!</h1>
+          <p class="lead jumbo"> The objective of this game is to get either three Xs or 0s in a row.<br>You will be playing against the computer. Good Luck!
+          <p id="carlos" class="jumbo">by: Carlos M. Navarro G.</p>
+
+          <div class="userScore score">
+            <span class="badge badge-success userBadge"></span>
+            <span id="userScore" class="badge badge-light"></span>
+          </div>
+
+          <button id="game" type="button" class="btn btn-secondary btn-sm">Start Game</button>
+
+          <div class="computerScore score">
+            <span class="badge badge-danger computerBadge"></span>
+            <span id="computerScore" class="badge badge-light"></span>
+          </div>
+
+      </div>
+    </div>
+
+      <div class="outerMatrix">
+        <div class="matrix">
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+          <div class="cell">.</div>
+        </div>
+      </div>
+
+    <div class="scripts">
+      <script type="text/javascript" src="tictactoe.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
