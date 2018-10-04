@@ -180,7 +180,7 @@ function ifCorrectPermutationDo(cell1,cell2,cell3,character){
 }
 
 
-//adds 1 to current value in marker
+//adds 1 point to current value in marker
 function changeScore(char){
   if (char === "X"){
     userScoreValue.textContent = String(Number((userScoreValue.textContent),10)+1);
